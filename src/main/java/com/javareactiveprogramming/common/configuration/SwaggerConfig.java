@@ -1,4 +1,4 @@
-package com.javareactiveprogramming.common;
+package com.javareactiveprogramming.common.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -17,7 +17,8 @@ public class CustomerHandler {
     public Mono<ServerResponse> loadCustomers(ServerRequest request) {
 
         Flux<Customer> customerFlux = customerDao.getCustomerList();
-        return ServerResponse.ok().body(customerFlux, Customer.class);
+//        return ServerResponse.ok().body(customerFlux, Customer.class);
+        return Mono.error(new Exception("Fuck you"));
     }
 
     public Mono<ServerResponse> loadCustomerById(ServerRequest request) {

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: reactive-programming
+  data:
+    mongodb:
+      database: Productsdb
+      host: localhost
+      port: 27017
+#springdoc:
+#  api-docs:
+#    groups:
+#      enable: true
+#    path: /swagger-doc/v3/api-doc
+#  swagger-ui:
+#    path: /swagger-doc/swagger-ui.html
+server:
+    port: 8080
